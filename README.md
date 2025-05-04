@@ -1,2 +1,7 @@
-# Atividade-02-.b--Plotando-campos-vetoriais
-Visualização de Campo Vetorial 3D com Matplotlib
+Este projeto tem como objetivo a visualização de um campo vetorial tridimensional por meio da linguagem de programação Python, utilizando as bibliotecas NumPy e Matplotlib, com o suporte do módulo mpl_toolkits.mplot3d para geração de gráficos em três dimensões. O campo vetorial analisado possui componentes que variam em função das três coordenadas espaciais, apresentando comportamentos distintos em cada direção.
+
+Para representar esse campo, foi criada uma malha tridimensional de pontos, distribuídos de forma uniforme em intervalos específicos para os eixos x, y e z. O intervalo para a coordenada z foi escolhido de modo a evitar divisões por zero durante os cálculos. Em cada ponto dessa malha, foi calculado um vetor do campo, e esses vetores foram normalizados para que todos tivessem o mesmo comprimento visual, facilitando a observação das direções dos vetores, sem distorções causadas por diferenças de magnitude.
+
+A visualização foi construída com a função quiver do Matplotlib, que permite representar vetores como setas no espaço tridimensional. O gráfico foi personalizado com rótulos para os eixos, título explicativo e vetores na cor laranja, proporcionando uma leitura clara e intuitiva.
+
+O resultado final é uma representação visual que facilita a análise qualitativa do comportamento do campo vetorial, permitindo identificar padrões como a orientação rotacional e a variação ao longo do eixo vertical. Essa abordagem é útil tanto em contextos educacionais quanto em aplicações técnicas e científicas que envolvem análise de campos vetoriais no espaço tridimensional.
